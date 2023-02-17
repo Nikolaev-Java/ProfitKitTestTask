@@ -1,0 +1,333 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+  <!-- Заголовок страницы в браузере -->
+  <title>ProfoKit</title>
+  <!-- Подключаем CSS -->
+  <link rel="stylesheet" href=".//css/style.css" />
+  <link rel="stylesheet" href=".//js/gallery/gallery.css">
+  <script src=".//js/gallery/galery.js"></script>
+  <!-- Кодировка страницы -->
+  <meta charset="UTF-8" />
+  <!-- Адаптив -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="tabs">
+      <div class="tabs__container _container">
+        <div class="tabs__content">
+          <a href="#tab-1" class="tabs__item active">популярные товары</a>
+          <a href="#tab-2" class="tabs__item">Недавно купили</a>
+          <a href="#tab-3" class="tabs__item">Вас может заинтересовать</a>
+        </div>
+      </div>
+    </div>
+    <div id="tab-1" class="products-slider products products-popular active">
+      <div id="test" class="products-slider__container _container">
+        <div class="products__item item-product">
+          <div class="item-product__header">
+            <div id='gallery-1' class="slider-image__wrapper">
+              <img src="/img/products/none.jpg" alt="none" class="item-product__image">
+              <img src="/img/products/watch.jpg" alt="none" class="item-product__image">
+              <img src="/img/products/flower.jpg" alt="none" class="item-product__image">
+              <img src="/img/products/ring.jpg" alt="none" class="item-product__image">
+              <img src="/img/products/none.jpg" alt="none" class="item-product__image">
+            </div>
+            <button class="item-product__favorite"></button>
+            <button class="item-product__compare"></button>
+          </div>
+          <div class="item-product__content">
+            <div class="item-product__info">
+              <div class="item-product__name">Тарелка керамическая ручной работы ⌀&nbsp;12</div>
+              <div class="item-product__price">600 ₽<span>810 ₽</span></div>
+            </div>
+            <div class="item-product__control control">
+              <div class="control-amount">
+                <button class="control-amount__btn control-amount__btn--decrease"><span></span></button>
+                <div class="control-amount__info">1</div>
+                <button class="control-amount__btn control-amount__btn--increase"><span></span></button>
+              </div>
+              <div class="control-cart">
+                <button class="control-cart__btn">В корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="products__item item-product">
+          <div class="item-product__header slider-image__wrapper">
+            <div id='gallery-2' class="slider-image__wrapper">
+              <img src="/img/products/flower.jpg" alt="none" class="item-product__image">
+              <img src="/img/products/none.jpg" alt="none" class="item-product__image">
+              <img src="/img/products/watch.jpg" alt="none" class="item-product__image">
+              <img src="/img/products/ring.jpg" alt="none" class="item-product__image">
+              <img src="/img/products/none.jpg" alt="none" class="item-product__image">
+            </div>
+            <button class="item-product__favorite"></button>
+            <button class="item-product__compare"></button>
+          </div>
+          <div class="item-product__content">
+            <div class="item-product__info">
+              <div class="item-product__name">Кашпо для цветов керамическое<br>СИМПЛГРЕЙ</div>
+              <div class="item-product__price">450 ₽</div>
+            </div>
+            <div class="item-product__control control">
+              <div class="control-amount">
+                <button class="control-amount__btn control-amount__btn--decrease"><span></span></button>
+                <div class="control-amount__info">1</div>
+                <button class="control-amount__btn control-amount__btn--increase"><span></span></button>
+              </div>
+              <div class="control-cart">
+                <button class="control-cart__btn">В корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="products__item item-product">
+          <div class="item-product__header slider-image__wrapper">
+            <div id='gallery-3' class="slider-image__wrapper">
+              <img src="/img/products/watch.jpg" alt="none" class="item-product__image">
+              <img src="/img/products/none.jpg" alt="none" class="item-product__image">
+              <img src="/img/products/flower.jpg" alt="none" class="item-product__image">
+              <img src="/img/products/ring.jpg" alt="none" class="item-product__image">
+              <img src="/img/products/none.jpg" alt="none" class="item-product__image">
+            </div>
+            <button class="item-product__favorite"></button>
+            <button class="item-product__compare"></button>
+            <div class="item-product__icon item-product__icon--hit"></div>
+          </div>
+          <div class="item-product__content">
+            <div class="item-product__info">
+              <div class="item-product__name">Умные часы SMARTWATCH XM 109 черный</div>
+              <div class="item-product__price">12 999 ₽</div>
+            </div>
+            <div class="item-product__control control">
+              <div class="control-amount">
+                <button class="control-amount__btn control-amount__btn--decrease"><span></span></button>
+                <div class="control-amount__info">1</div>
+                <button class="control-amount__btn control-amount__btn--increase"><span></span></button>
+              </div>
+              <div class="control-cart">
+                <button class="control-cart__btn">В корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="products__item item-product">
+          <div class="item-product__header slider-image__wrapper">
+            <div id='gallery-4' class="slider-image__wrapper">
+              <img src="/img/products/ring.jpg" alt="none" class="item-product__image">
+              <img src="/img/products/none.jpg" alt="none" class="item-product__image">
+              <img src="/img/products/watch.jpg" alt="none" class="item-product__image">
+              <img src="/img/products/flower.jpg" alt="none" class="item-product__image">
+              <img src="/img/products/none.jpg" alt="none" class="item-product__image">
+            </div>
+            <div class="item-product__icon item-product__icon--new"></div>
+            <button class="item-product__favorite"></button>
+            <button class="item-product__compare"></button>
+          </div>
+          <div class="item-product__content">
+            <div class="item-product__info">
+              <div class="item-product__name">Золотое кольцо МАЛИКА с аметистом и <br>фианитами</div>
+              <div class="item-product__price">15 700 ₽</div>
+            </div>
+            <div class="item-product__control control">
+              <div class="control-amount">
+                <button class="control-amount__btn control-amount__btn--decrease"><span></span></button>
+                <div class="control-amount__info">1</div>
+                <button class="control-amount__btn control-amount__btn--increase"><span></span></button>
+              </div>
+              <div class="control-cart">
+                <button class="control-cart__btn">В корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="products__item item-product">
+          <div class="item-product__header slider-image__wrapper">
+            <div id='gallery-5' class="slider-image__wrapper">
+              <img src="/img/products/watch.jpg" alt="none" class="item-product__image">
+              <img src="/img/products/none.jpg" alt="none" class="item-product__image">
+              <img src="/img/products/flower.jpg" alt="none" class="item-product__image">
+              <img src="/img/products/ring.jpg" alt="none" class="item-product__image">
+              <img src="/img/products/none.jpg" alt="none" class="item-product__image">
+            </div>
+            <div class="item-product__icon item-product__icon--new"></div>
+            <button class="item-product__favorite"></button>
+            <button class="item-product__compare"></button>
+          </div>
+          <div class="item-product__content">
+            <div class="item-product__info">
+              <div class="item-product__name">Золотое кольцо МАЛИКА с аметистом и <br>фианитами</div>
+              <div class="item-product__price">15 700 ₽</div>
+            </div>
+            <div class="item-product__control control">
+              <div class="control-amount">
+                <button class="control-amount__btn control-amount__btn--decrease"><span></span></button>
+                <div class="control-amount__info">1</div>
+                <button class="control-amount__btn control-amount__btn--increase"><span></span></button>
+              </div>
+              <div class="control-cart">
+                <button class="control-cart__btn">В корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="tab-2" class="products-slider products products-last-buy">
+      <div class="products-slider__container _container">
+        <div class="products__content">
+          <div class="products__item item-product">
+            <div class="item-product__header slider-image__wrapper">
+              <div class="slider-image__line">
+                <div class="slider-image__item"><img src="/img/products/none.jpg" alt="none"
+                    class="item-product__image">
+                </div>
+                <div class="slider-image__item"><img src="/img/products/watch.jpg" alt="none"
+                    class="item-product__image">
+                </div>
+                <div class="slider-image__item"><img src="/img/products/flower.jpg" alt="none"
+                    class="item-product__image"></div>
+                <div class="slider-image__item"><img src="/img/products/ring.jpg" alt="none"
+                    class="item-product__image">
+                </div>
+                <div class="slider-image__item"><img src="/img/products/none.jpg" alt="none"
+                    class="item-product__image">
+                </div>
+              </div>
+              <div class="slider-image__buttons">
+                <div class="slider-image__btn active"><span></span></div>
+                <div class="slider-image__btn"><span></span></div>
+                <div class="slider-image__btn"><span></span></div>
+                <div class="slider-image__btn"><span></span></div>
+                <div class="slider-image__btn"><span></span></div>
+              </div>
+              <button class="item-product__favorite"></button>
+              <button class="item-product__compare"></button>
+            </div>
+            <div class="item-product__content">
+              <div class="item-product__info">
+                <div class="item-product__name">Тарелка керамическая ручной работы<br> ⌀ 12</div>
+                <div class="item-product__price">600 ₽<span>810 ₽</span></div>
+              </div>
+              <div class="item-product__control control">
+                <div class="control-amount">
+                  <button class="control-amount__btn control-amount__btn--decrease"><span></span></button>
+                  <div class="control-amount__info">1</div>
+                  <button class="control-amount__btn control-amount__btn--increase"><span></span></button>
+                </div>
+                <div class="control-cart">
+                  <button class="control-cart__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="products__item item-product">
+            <div class="item-product__header slider-image__wrapper">
+              <div class="slider-image__line">
+                <div class="slider-image__item"><img src="/img/products/flower.jpg" alt="none"
+                    class="item-product__image"></div>
+                <div class="slider-image__item"><img src="/img/products/none.jpg" alt="none"
+                    class="item-product__image">
+                </div>
+                <div class="slider-image__item"><img src="/img/products/watch.jpg" alt="none"
+                    class="item-product__image">
+                </div>
+                <div class="slider-image__item"><img src="/img/products/ring.jpg" alt="none"
+                    class="item-product__image">
+                </div>
+                <div class="slider-image__item"><img src="/img/products/none.jpg" alt="none"
+                    class="item-product__image">
+                </div>
+              </div>
+              <div class="slider-image__buttons">
+                <div class="slider-image__btn active"><span></span></div>
+                <div class="slider-image__btn"><span></span></div>
+                <div class="slider-image__btn"><span></span></div>
+                <div class="slider-image__btn"><span></span></div>
+                <div class="slider-image__btn"><span></span></div>
+              </div>
+              <button class="item-product__favorite"></button>
+              <button class="item-product__compare"></button>
+            </div>
+            <div class="item-product__content">
+              <div class="item-product__info">
+                <div class="item-product__name">Кашпо для цветов керамическое<br>СИМПЛГРЕЙ</div>
+                <div class="item-product__price">450 ₽</div>
+              </div>
+              <div class="item-product__control control">
+                <div class="control-amount">
+                  <button class="control-amount__btn control-amount__btn--decrease"><span></span></button>
+                  <div class="control-amount__info">1</div>
+                  <button class="control-amount__btn control-amount__btn--increase"><span></span></button>
+                </div>
+                <div class="control-cart">
+                  <button class="control-cart__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="tab-3" class="products-slider products products-interest">
+      <div class="products-slider__container _container">
+        <div class="products-slider__line">
+          <div class="products__content">
+            <div class="products__item item-product">
+              <div class="item-product__header slider-image__wrapper">
+                <div class="slider-image__line">
+                  <div class="slider-image__item"><img src="/img/products/none.jpg" alt="none"
+                      class="item-product__image"></div>
+                  <div class="slider-image__item"><img src="/img/products/watch.jpg" alt="none"
+                      class="item-product__image"></div>
+                  <div class="slider-image__item"><img src="/img/products/flower.jpg" alt="none"
+                      class="item-product__image"></div>
+                  <div class="slider-image__item"><img src="/img/products/ring.jpg" alt="none"
+                      class="item-product__image"></div>
+                  <div class="slider-image__item"><img src="/img/products/none.jpg" alt="none"
+                      class="item-product__image"></div>
+                </div>
+                <div class="slider-image__buttons">
+                  <div class="slider-image__btn active"><span></span></div>
+                  <div class="slider-image__btn"><span></span></div>
+                  <div class="slider-image__btn"><span></span></div>
+                  <div class="slider-image__btn"><span></span></div>
+                  <div class="slider-image__btn"><span></span></div>
+                </div>
+                <button class="item-product__favorite"></button>
+                <button class="item-product__compare"></button>
+              </div>
+              <div class="item-product__content">
+                <div class="item-product__info">
+                  <div class="item-product__name">Тарелка керамическая ручной работы<br> ⌀ 12</div>
+                  <div class="item-product__price">600 ₽<span>810 ₽</span></div>
+                </div>
+                <div class="item-product__control control">
+                  <div class="control-amount">
+                    <button class="control-amount__btn control-amount__btn--decrease"><span></span></button>
+                    <div class="control-amount__info">1</div>
+                    <button class="control-amount__btn control-amount__btn--increase"><span></span></button>
+                  </div>
+                  <div class="control-cart">
+                    <button class="control-cart__btn">В корзину</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src=".//js/script.js"></script>
+</body>
+
+</html>
